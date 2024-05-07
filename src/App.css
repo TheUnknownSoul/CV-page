@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'RubikDoodleShadowFont';
-    src: local(RubikDoodleShadowFont), url(./fonts/RubikDoodleShadow-Regular.ttf) format('ttf');
+    /*src: local(RubikDoodleShadowFont), url(./fonts/RubikDoodleShadow-Regular.ttf) format('ttf');*/
 }
 
 .App {

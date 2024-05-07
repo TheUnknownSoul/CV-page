@@ -1,4 +1,4 @@
-import photo from "../images/venom_img.png"
+import photo from "../images/andrii.png"
 import "../styles/AboutMeSection.css"
 import {Paper} from "@mui/material";
 
@@ -6,7 +6,7 @@ export default function AboutMeSection() {
     return (
 
         <div className="main-section">
-            <div >
+            <div>
 
                 <h1>About me</h1>
 
