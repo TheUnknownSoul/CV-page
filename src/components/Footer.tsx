@@ -16,7 +16,7 @@ export default function Footer() {
                 <div className="contact flex justify-center w-1/2 items-center py-16 ">
                     <div className="flex-row mx-2.5 items-center  ">
                         <LinkedInIcon></LinkedInIcon>
-                        <a href="https://linkedin.com/andrii-roi"> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/andrii-roi/"> LinkedIn</a>
                     </div>
 
                     <div className="flex-row mx-2.5 items-center  ">
