@@ -16,9 +16,9 @@ export default function App() {
             <BrowserRouter>
                 <Navigation/>
                 <Routes>
-                    <Route index path="/" element={<AboutMeSection/>}/>
-                    <Route path="/cv" element={<CVSection/>}/>
-                    <Route path="/pricing" element={<PricingSection/>}/>
+                    <Route index path="/CV-page" element={<AboutMeSection/>}/>
+                    <Route path="/CV-page/cv" element={<CVSection/>}/>
+                    <Route path="/CV-page/pricing" element={<PricingSection/>}/>
                 </Routes>
             </BrowserRouter>
 
