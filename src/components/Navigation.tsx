@@ -8,9 +8,9 @@ export default function CenteredTabs() {
     return (
         <div className="nav-bar">
             <ul className="menu">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/cv">CV</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
+                <li><Link to="/CV-page/">Home</Link></li>
+                <li><Link to="/CV-page/cv">CV</Link></li>
+                <li><Link to="/CV-page/pricing">Pricing</Link></li>
             </ul>
         </div>
     );
