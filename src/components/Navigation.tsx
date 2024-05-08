@@ -6,11 +6,11 @@ import {Link} from 'react-router-dom';
 
 export default function CenteredTabs() {
     return (
-        <div className="nav-bar">
-            <ul className="menu">
-                <li><Link to="/CV-page/">Home</Link></li>
-                <li><Link to="/CV-page/cv">CV</Link></li>
-                <li><Link to="/CV-page/pricing">Pricing</Link></li>
+        <div className="nav-bar w-full flex items-center justify-center ">
+            <ul className="menu flex items-center justify-center  w-1/2">
+                <li className="flex mx-8"><Link to="/CV-page/">Home</Link></li>
+                <li className="flex mx-8"><Link to="/CV-page/cv">CV</Link></li>
+                <li className="flex mx-8"><Link to="/CV-page/pricing">Pricing</Link></li>
             </ul>
         </div>
     );

@@ -6,25 +6,37 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Footer() {
     return (
-        <div className="footer justify-stretch  ">
+        <div className="footer justify-stretch  py-36">
             <div>
-                {/*<h1>Contacts and additional info</h1>*/}
                 <h1>CONTACTS AND ADDITIONAL INFO</h1>
             </div>
-            <div className="contact flex justify-around">
-                <span><LinkedInIcon></LinkedInIcon>
-                    <a href="https://linkedin.com/andrii-roi"> LinkedIn</a>
-                </span>
-                <span><GitHubIcon></GitHubIcon>
-                    <a href="https://github.com/TheUnknownSoul"> Github</a>
-                </span>
-                <span><MailOutlineIcon></MailOutlineIcon>
-                    <a href="mailto:andriyroy3@gmail.com">Email</a>
-                </span>
-                <span><TwitterIcon></TwitterIcon>
-                    <a href="https://x.com/v01d1nc4rn4t3">Twitter</a>
-                </span>
+            <div className="w-full flex  justify-center ">
+
+
+                <div className="contact flex justify-center w-1/2 items-center py-16 ">
+                    <div className="flex-row mx-2.5 items-center  ">
+                        <LinkedInIcon></LinkedInIcon>
+                        <a href="https://linkedin.com/andrii-roi"> LinkedIn</a>
+                    </div>
+
+                    <div className="flex-row mx-2.5 items-center  ">
+                        <GitHubIcon></GitHubIcon>
+                        <a href="https://github.com/TheUnknownSoul"> Github</a>
+                    </div>
+
+                    <div className="flex-row mx-2.5 items-center  ">
+                        <MailOutlineIcon></MailOutlineIcon>
+                        <a href="mailto:andriyroy3@gmail.com">Email</a>
+                    </div>
+
+                    <div className="flex-row mx-2.5 items-center  ">
+                        <TwitterIcon></TwitterIcon>
+                        <a href="https://x.com/v01d1nc4rn4t3">Twitter</a>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     )
 }
