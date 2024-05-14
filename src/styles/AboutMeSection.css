@@ -4,43 +4,10 @@
     align-items: center;
     flex-direction: column;
     padding: 10vh;
-    /*animation-name: shine;*/
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
-    /*font-family: 'Rubik Doodle Shadow', serif;*/
-    /*font-size: calc(10px + 2vmin);*/
-    /*color: #ffffff;*/
-    /*background-image: linear-gradient( to bottom, #3f3c46, #C5AAFF, black );*/
-    /*background-image: inherit;*/
-    /*background-image: linear-gradient( to bottom ,black, #5D4566, black );*/
-    /*background: #C5AAFF;*/
-
 }
 
 h1 {
     text-transform: uppercase;
-}
-
-@keyframes shine {
-    from {
-        background: black
-    }
-    to {
-        background: #C5AAFF
-    }
-    0% {
-        background-position: 0;
-    }
-    25% {
-        background-position: 600px;
-    }
-    60% {
-        background-position: 600px;
-    }
-    100% {
-        background-position: 600px;
-    }
 }
 
 .paper {
@@ -61,26 +28,5 @@ h1 {
     text-align: center;
 }
 
-.about-me-text {
-    padding: 64px 15px 15px 15px;
-    margin: 64px 15px 15px 15px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 3s infinite linear;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-}
 
-.container-img {
-    display: flex;
-}
 
-.main-info {
-    text-align: justify;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}

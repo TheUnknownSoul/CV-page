@@ -6,8 +6,8 @@ export default function PricingSection() {
         <div className=" py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">Price</h2>
-                    <p className="mt-6 text-lg leading-8 text-black">Flexible pricing for your needs.</p>
+                    <h2 className="text-3xl font-bold tracking-tight pricing-text sm:text-4xl">PRICE</h2>
+                    <p className="mt-6 text-lg leading-8 pricing-text">Flexible pricing for your needs.</p>
                 </div>
 
                 {/*First block of pricing. full time job*/}
@@ -15,8 +15,8 @@ export default function PricingSection() {
                 <div
                     className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
                     <div className="p-8 sm:p-10 lg:flex-auto">
-                        <h3 className="text-2xl font-bold tracking-tight text-black">Full-time job</h3>
-                        <p className="mt-6 text-base leading-7 text-black">
+                        <h3 className="text-2xl font-bold tracking-tight pricing-text">Full-time job</h3>
+                        <p className="mt-6 text-base leading-7 pricing-text">
                             Full skill set in your armory. Help your to improve your security and functionality
                             without performance restriction. Developing from scratch. Support already produced products.
                         </p>
@@ -26,7 +26,7 @@ export default function PricingSection() {
                             <div className="h-px flex-auto bg-gray-100"></div>
                         </div>
                         <ul
-                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6">
+                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 pricing-text sm:grid-cols-2 sm:gap-6">
                             <li className="flex gap-x-3">
                                 <svg className="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20"
                                      fill="currentColor" aria-hidden="true">
@@ -94,8 +94,8 @@ export default function PricingSection() {
                 <div
                     className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
                     <div className="p-8 sm:p-10 lg:flex-auto">
-                        <h3 className="text-2xl font-bold tracking-tight text-black">Part-time job</h3>
-                        <p className="mt-6 text-base leading-7 text-black">
+                        <h3 className="text-2xl font-bold tracking-tight pricing-text">Part-time job</h3>
+                        <p className="mt-6 text-base leading-7 pricing-text">
                             Help you solve point tasks which are not include full-time relationships.
                         </p>
                         <div className="mt-10 flex items-center gap-x-4">
@@ -104,7 +104,7 @@ export default function PricingSection() {
                             <div className="h-px flex-auto bg-gray-100"></div>
                         </div>
                         <ul
-                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6">
+                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 pricing-text sm:grid-cols-2 sm:gap-6">
                             <li className="flex gap-x-3">
                                 <svg className="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20"
                                      fill="currentColor" aria-hidden="true">
@@ -169,8 +169,8 @@ export default function PricingSection() {
                 <div
                     className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
                     <div className="p-8 sm:p-10 lg:flex-auto">
-                        <h3 className="text-2xl font-bold tracking-tight text-black">Freelance | Consulting</h3>
-                        <p className="mt-6 text-base leading-7 text-black">
+                        <h3 className="text-2xl font-bold tracking-tight pricing-text">Freelance | Consulting</h3>
+                        <p className="mt-6 text-base leading-7 pricing-text">
                             General and specific consulting in different area of web development and security.
                         </p>
                         <div className="mt-10 flex items-center gap-x-4">
@@ -179,7 +179,7 @@ export default function PricingSection() {
                             <div className="h-px flex-auto bg-gray-100"></div>
                         </div>
                         <ul
-                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-black sm:grid-cols-2 sm:gap-6">
+                            className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 pricing-text sm:grid-cols-2 sm:gap-6">
                             <li className="flex gap-x-3">
                                 <svg className="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20"
                                      fill="currentColor" aria-hidden="true">

@@ -1,13 +1,7 @@
-@font-face {
-    font-family: 'RubikDoodleShadowFont';
-    /*src: local(RubikDoodleShadowFont), url(./fonts/RubikDoodleShadow-Regular.ttf) format('ttf');*/
-}
-
 .App {
     font-family: 'Rubik Doodle Shadow', serif;
     font-size: calc(10px + 2vmin);
     color: #ffffff;
-    background-image: linear-gradient(to bottom, #3f3c46, #C5AAFF, black);
-    /*background-image: linear-gradient(to bottom,#5D4566 1%, black 20%, #5D4566);*/
+    background-image: linear-gradient(to bottom, #4B4854 , #7C6C9E 1%, black);
 
 }
