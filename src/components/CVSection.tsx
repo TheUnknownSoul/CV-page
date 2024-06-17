@@ -144,11 +144,11 @@ export default function CVSection() {
                                         <div className="ml-4 flex min-w-0 flex-1 gap-2">
                                         <span
                                             className="truncate font-medium">Roi_A.Security_and_Software_Engineer.pdf</span>
-                                            <span className="flex-shrink-0 text-white-400">2.4mb</span>
+                                            <span className="flex-shrink-0 text-white-400">92.9KB</span>
                                         </div>
                                     </div>
                                     <div className="ml-4 flex-shrink-0">
-                                        <a href="/cv/download"
+                                        <a href="https://github.com/TheUnknownSoul/CV-page/cv/Roi_Andrii_Software_and_Security_Engineer.pdf"
                                            className="font-medium text-indigo-600 hover:text-indigo-500">
                                             Download
                                         </a>
