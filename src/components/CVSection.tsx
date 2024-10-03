@@ -84,50 +84,89 @@ export default function CVSection() {
                         <dt className="text-base font-medium leading-6 text-white-900">Work Experience</dt>
                         <dd className="mt-1 text-base leading-6 cv-text sm:col-span-2 sm:mt-0">
                             <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
-                                NDA
+                                First Ukrainian International Bank
                             </h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">Security Software
-                                Engineer | Penetration Tester | Cyber Security Engineer</h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">03.2022 -
+                            <h2 className="text-balance font-semibold leading-8 text-white-900">Software Engineer |
+                                DevSecOps</h2>
+                            <h2 className="text-balance font-semibold leading-8 text-white-900">10.2024 -
                                 present</h2>
                             <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
                                 <li>Securing project lifecycle development</li>
                                 <li>Performing web application and network penetration tests</li>
-                                <li>Writing software for red team purposes</li>
-                                <li>Researching and implementation CVE's from Proof of Concept to Proof of Work</li>
-                                <li>Key technologies: Java 17, React, Python, C++, Javascript, Spring Boot, Spring
-                                    Security, Docker
+                                <li>Software developments (tools)</li>
+                                <li>Monitoring threats</li>
+                                <li>Key technologies: OWASP, vulnerabilities scanners, red/blue team frameworks
                                 </li>
                             </ul>
-                            <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
-                                GoIT
-                            </h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">Java Mentor</h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">11.2021 -
-                                09.2023</h2>
-                            <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
-                                <li>Running Java Marathons</li>
-                                <li>Students technical support</li>
-                                <li>Homework assessment and technical feedback</li>
-                                <li>New graduate project development</li>
-                            </ul>
-                            <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
-                                SmartFoxPro ltd
-                            </h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">Java Full Stack
-                                Software
-                                Engineer | Cyber Security Engineer</h2>
-                            <h2 className="text-balance font-semibold leading-8 text-white-900">03.2021 -
-                                03.2022</h2>
-                            <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
-                                <li>Developing backend server logic for studying freelance platform</li>
-                                <li>Bug fixing</li>
-                                <li>New backed and frontend feature implementation.</li>
-                                <li>Key technologies: Java 8, Spring Boot, Spring Data, Javascript, AngularJS,
-                                    Vaadin, MySQL, JQuery
-                                </li>
-                            </ul>
+                            <dd className="mt-1 text-base leading-6 cv-text sm:col-span-2 sm:mt-0">
+                                <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
+                                    SmartFoxPro ltd
+                                </h2>
+                                <h2 className="text-balance font-semibold leading-8 text-white-900">Java Full Stack
+                                    Software Engineer</h2>
+                                <h2 className="text-balance font-semibold leading-8 text-white-900">07.2024 -
+                                    08.2024</h2>
+                                <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
+                                    <li>Taking part in inner hackathons</li>
+                                    <li>Out staff format cooperation</li>
+                                    <li>Writing software for business purposes</li>
+                                    <li>Bugfix, new feature implementation</li>
+                                    <li>Key technologies: Java 21, Angular 17, Typescript, Spring Boot, Spring
+                                        Security, MySQL
+                                    </li>
+                                </ul>
+                                <dd className="mt-1 text-base leading-6 cv-text sm:col-span-2 sm:mt-0">
+                                    <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
+                                        NDA
+                                    </h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">Security
+                                        Software
+                                        Engineer | Penetration Tester | Cyber Security Engineer</h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">03.2022 -
+                                        present</h2>
+                                    <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
+                                        <li>Securing project lifecycle development</li>
+                                        <li>Performing web application and network penetration tests</li>
+                                        <li>Writing software for red team purposes</li>
+                                        <li>Researching and implementation CVE's from Proof of Concept to Proof of
+                                            Work
+                                        </li>
+                                        <li>Key technologies: Java 17, React, Python, C++, Javascript, Spring Boot,
+                                            Spring
+                                            Security, Docker
+                                        </li>
+                                    </ul>
+                                    <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
+                                        GoIT
+                                    </h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">Java Mentor</h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">11.2021 -
+                                        09.2023</h2>
+                                    <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
+                                        <li>Running Java Marathons</li>
+                                        <li>Students technical support</li>
+                                        <li>Homework assessment and technical feedback</li>
+                                        <li>New graduate project development</li>
+                                    </ul>
+                                    <h2 className="text-base text-decoration-line: underline; font-semibold leading-8 text-white-900">
+                                        SmartFoxPro ltd
+                                    </h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">Java Full Stack
+                                        Software
+                                        Engineer | Cyber Security Engineer</h2>
+                                    <h2 className="text-balance font-semibold leading-8 text-white-900">03.2021 -
+                                        03.2022</h2>
+                                    <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
+                                        <li>Developing backend server logic for studying freelance platform</li>
+                                        <li>Bug fixing</li>
+                                        <li>New backed and frontend feature implementation.</li>
+                                        <li>Key technologies: Java 8, Spring Boot, Spring Data, Javascript, AngularJS,
+                                            Vaadin, MySQL, JQuery
+                                        </li>
+                                    </ul>
 
+                                </dd>
+                            </dd>
                         </dd>
                     </div>
 
