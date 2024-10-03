@@ -183,7 +183,7 @@ export default function CVSection() {
                                         <div className="ml-4 flex min-w-0 flex-1 gap-2">
                                         <span
                                             className="truncate font-medium">Roi_A.Security_and_Software_Engineer.pdf</span>
-                                            <span className="flex-shrink-0 text-white-400">92.9KB</span>
+                                            <span className="flex-shrink-0 text-white-400">130.9KB</span>
                                         </div>
                                     </div>
                                     <div className="ml-4 flex-shrink-0">
