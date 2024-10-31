@@ -187,7 +187,7 @@ export default function CVSection() {
                                         </div>
                                     </div>
                                     <div className="ml-4 flex-shrink-0">
-                                        <a href="https://github.com/TheUnknownSoul/CV-page/blob/master/cv/Roi_Andrii_Software_and_Security_Engineer.pdf"
+                                        <a href="https://github.com/TheUnknownSoul/CV-page/blob/master/cv/Andrii_Roi_Software_and_Security_Engineer.pdf"
                                            className="font-medium text-indigo-600 hover:text-indigo-500">
                                             Download
                                         </a>
