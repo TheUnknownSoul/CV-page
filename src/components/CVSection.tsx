@@ -123,7 +123,7 @@ export default function CVSection() {
                                         Software
                                         Engineer | Penetration Tester | Cyber Security Engineer</h2>
                                     <h2 className="text-balance font-semibold leading-8 text-white-900">03.2022 -
-                                        September 2024</h2>
+                                        09.2024</h2>
                                     <ul className=" list-disc justify-between py-4 pl-4 pr-8 text-base leading-6 cv-text">
                                         <li>Securing project lifecycle development</li>
                                         <li>Performing web application and network penetration tests</li>
