@@ -1,20 +1,15 @@
 import photo from "../images/andrii.png"
 import "../styles/AboutMeSection.css"
-import {Paper} from "@mui/material";
 
 export default function AboutMeSection() {
+    const my_photo = photo  as string
     return (
+        <div className=" items-stretch py-5  mt-16 px-4 grid justify-items-center">
+            <h1>About me</h1>
+            <img src={my_photo} alt="Andrey" className="avatar rounded-full py-7"/>
+            <div className="mx-auto mt-16  rounded-3xl ring-1 ring-gray-200 ">
 
-        <div className="main-section flex flex-col items-center justify-center">
-            <div className="py-5">
-
-                <h1>About me</h1>
-
-                <img src={photo} alt="Andrey" className="avatar rounded-full py-7"/>
-            </div>
-            <Paper className="paper py-5" variant="elevation" square={false}>
-
-                <div className="">
+                <div className=" p-2  lg:w-full  lg:flex-shrink-0 ">
                     <p>
                         Hi, my name is Andrii and I'm glad to see you on my page.
                         <br/>
@@ -52,7 +47,8 @@ export default function AboutMeSection() {
                             language vulnerabilities
                         </li>
                         <li>Development: Basic stack described in CV section but main technologies are Java (Spring),
-                            Javascript/Typescript (Angular, React) and Python. </li>
+                            Javascript/Typescript (Angular, React) and Python.
+                        </li>
 
                         <br/>
                         In some cases, for demonstration purpose, I can develop proof of concept exploit for disclosure
@@ -69,8 +65,8 @@ export default function AboutMeSection() {
 
                     </p>
                 </div>
-            </Paper>
-        </div>
+            </div>
 
+        </div>
     )
 }
