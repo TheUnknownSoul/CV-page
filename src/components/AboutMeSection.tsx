@@ -9,7 +9,7 @@ export default function AboutMeSection() {
             <img src={my_photo} alt="Andrey" className="avatar rounded-full py-7"/>
             <div className="mx-auto mt-16  rounded-3xl ring-1 ring-gray-200 ">
 
-                <div className=" p-2  lg:w-full  lg:flex-shrink-0 ">
+                <div className=" p-6  lg:w-full  lg:flex-shrink-0 ">
                     <p>
                         Hi, my name is Andrii and I'm glad to see you on my page.
                         <br/>
